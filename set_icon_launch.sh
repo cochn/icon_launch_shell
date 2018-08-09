@@ -126,8 +126,10 @@ then
     if [ $imageset ]
     then
         changeImage $icon "${imageset}.imageset"
+        echo "-----------------edit ${imageset}.imageset success-----------------"
     else
         changeImage $icon "AppIcon.appiconset"
+        echo "-----------------edit AppIcon.appiconset success-----------------"
     fi
 
 
@@ -136,12 +138,14 @@ fi
 if [ $projectPath ] && [ $launch ]
 then
     changeImage $launch "*.launchimage"
+    echo "-----------------edit $launch success-----------------"
 fi
 
 
 if [ $new ] && [ $icon ]
 then
     newIcon
+    echo "-----------------edit $icon success-----------------"
 fi
 
 
