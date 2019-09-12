@@ -13,4 +13,4 @@
 ./set_icon_launch.sh -p [项目根路径] -l [launcImage图片绝对路径]
 
 ## 修改Assets.xcassets里指定 *.imageset图片
-./set_icon_launch.sh -p [项目根路径] -i [AppIcon图片绝对路径] -c []imageset名称]
+./set_icon_launch.sh -p [项目根路径] -i [AppIcon图片绝对路径] -c [imageset名称]
